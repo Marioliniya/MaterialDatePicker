@@ -4,7 +4,8 @@ Yet another iOS-based date picker!  This date time picker provides an easy way o
 
 ## Quick start
 
-```Download the latest release
+```
+Download the latest release
 
 //
 //  ViewController.m
@@ -67,7 +68,8 @@ Yet another iOS-based date picker!  This date time picker provides an easy way o
 
 
 
-@end```
+@end
+```
 
 ## Looks like
 
