@@ -2,6 +2,14 @@
 
 Yet another iOS-based date picker!  This date time picker provides an easy way of creating both single and multi-viewed calendars capable of accepting single, range, and multiple selected dates.  Easy to use. Solved year list issus in this updated calendar
 
+
+
+## Looks like
+
+<img src="https://raw.githubusercontent.com/fpt-software/Material-Controls-For-iOS/master/Screenshots/MDDatePicker.gif" />
+
+
+
 ## Quick start
 
 ```
@@ -70,7 +78,3 @@ Download the latest release
 
 @end
 ```
-
-## Looks like
-
-<img src="https://raw.githubusercontent.com/fpt-software/Material-Controls-For-iOS/master/Screenshots/MDDatePicker.gif" />
