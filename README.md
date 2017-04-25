@@ -2,6 +2,8 @@
 
 Yet another iOS-based date picker!  This date time picker provides an easy way of creating both single and multi-viewed calendars capable of accepting single, range, and multiple selected dates.  Easy to use. Solved year list issus in this updated calendar
 
+`Implemented Disable dates function.`
+
 
 
 ## Looks like
@@ -57,8 +59,11 @@ Download the latest release
 
         MDDatePickerDialog *datePicker = [[MDDatePickerDialog alloc] init];
         _datePicker = datePicker;
-        _datePicker.disableDates = @[];//Darshit
+        
+        //To disable Dates for event management.
+        _datePicker.disableDates = @[];//Darshit //Example:- @[@"2017-04-17",@"2017-04-25"];
         _datePicker.disableDatesFormater = dateFormatter;//Darshit
+
         _datePicker.minimumDate = date;
         _datePicker.selectedDate = date;
         _datePicker.delegate = self;
